@@ -5,6 +5,7 @@ window.addEventListener("load", function() {
 	video = this.document.querySelector("#player1");
 	video.autoplay = false;
 	video.loop = false;
+	document.querySelector("#volume").innerHTML = "100%";
 });
 
 document.querySelector("#play").addEventListener("click", function() {
